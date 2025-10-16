@@ -1,4 +1,4 @@
-# Soil Moisture Monitoring and Automated Irrigation System
+# Sensing Moisture Content of the Soil 
 
 This repository contains the C source code, hardware logic, and project report for an automated system designed to sense soil moisture levels and control irrigation to prevent water wastage in agriculture.
 
