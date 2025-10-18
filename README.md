@@ -34,15 +34,19 @@ This project is built around an embedded system architecture using a Keil MicroV
 | **Programming Language** | Used to program the LPC-1769 Microcontroller. | **C / Embedded C** |
 | **Interface** | Used to upload code and monitor sensor readings (serial output). | **Flash Magic Tool** (for upload) and **Windows System** (for control/monitoring) |
 
----
-
 ## Repository Contents
 
 | File Name | Description |
 | :--- | :--- |
 | `main.c` | Contains the **core control loop logic** (`while(1)`) for reading the sensor, checking the threshold, and making the ON/OFF decision. |
 | **`peripherals.c`** | **Contains the hardware initialization functions** (`init_peripherals`), setting up the GPIO pins, ADC, and LCD before the main loop starts. |
-| `MINI PROJECT - SRIJA.pdf` | The complete project report submitted for the award of B.E. Degree. |
 
+## 📈 Future Scope
+
+[cite_start]The architecture is modular and designed to be expandable[cite: 258]. Potential future scope includes:
+
+* [cite_start]Developing a **mobile application** to allow farmers to control the system remotely[cite: 653].
+* [cite_start]Integrating additional sensors (e.g., DHT11 for temperature/humidity) to predict weather patterns or plant disease[cite: 650, 656, 657].
+* [cite_start]Adding LCD screens to display the current moisture content levels and water utilization statistics[cite: 651].
 ---
 
