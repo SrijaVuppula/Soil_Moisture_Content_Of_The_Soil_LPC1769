@@ -40,7 +40,7 @@ This project is built around an embedded system architecture using a Keil MicroV
 
 | File Name | Description |
 | :--- | :--- |
-| `main.c` | Contains the **core control loop logic** (`while(1)`) for reading the sensor, checking the threshold, and making the ON/OFF decision. |
+| **`main.c`** | Contains the **core control loop logic** (`while(1)`) for reading the sensor, checking the threshold, and making the ON/OFF decision. |
 | **`peripherals.c`** | **Contains the hardware initialization functions** (`init_peripherals`), setting up the GPIO pins, ADC, and LCD before the main loop starts. |
 
 ---
